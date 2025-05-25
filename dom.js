@@ -4,6 +4,7 @@ export default function getData(data) {
     box.innerHTML = ""
     data.forEach(e => {
         let div = document.createElement('div')
+        div.classList.add('container')
 
         let h1Name = document.createElement('h1')
         h1Name.innerHTML = e.name 
